@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: grey;
+}
+.container{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    position: relative;
+    height: 90%;
+    margin-top: 4px ;
+    margin-right: auto ;
+    margin-left: 100px ;
+    display: inline;
+    border-radius: 50%;
+}
+.inp{
+    position: relative;
+    display: block;
+    transform: translateY(-145%);
+    margin-left: 380px;
+ 
+}
+#buscar{
+    width: 350px;
+    height: 40px;
+    border: none;
+    background: white url(./assets/lupa.png) no-repeat right center ;
+    background-size: 30px;
+    border-radius: 30px;
+}
+.lista{
+    text-align: right;
+    margin-right: 70px;
+    transform: translateY(-550%);
+    }
+.li{
+   margin-right: 20px; 
+   list-style: none ;
+   color: white;
+   display: inline;
+}
+.emdev{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+
